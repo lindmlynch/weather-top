@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="535ff6fb-ea0b-4c72-832b-7cf371046587" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28sojjIIfSKsG1bYf0eJc9CYhwD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/weather-top&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="535ff6fb-ea0b-4c72-832b-7cf371046587" name="Changes" comment="" />
+      <created>1652014806217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652014806217</updated>
+      <workItem from="1652014807373" duration="5897000" />
+      <workItem from="1652024238907" duration="3368000" />
+      <workItem from="1652299242275" duration="3000" />
+      <workItem from="1652299298040" duration="14000" />
+      <workItem from="1652632659089" duration="2127000" />
+      <workItem from="1652813803269" duration="3891000" />
+      <workItem from="1653039387210" duration="3915000" />
+      <workItem from="1653066125199" duration="1116000" />
+      <workItem from="1653086716877" duration="1188000" />
+      <workItem from="1653124346743" duration="25593000" />
+      <workItem from="1653222478261" duration="23707000" />
+      <workItem from="1653331734495" duration="4145000" />
+      <workItem from="1653336388600" duration="1567000" />
+      <workItem from="1653343403935" duration="7871000" />
+      <workItem from="1653418183488" duration="679000" />
+      <workItem from="1653484445719" duration="27400000" />
+      <workItem from="1653561482294" duration="12805000" />
+      <workItem from="1653596098523" duration="7029000" />
+      <workItem from="1653642668019" duration="41058000" />
+      <workItem from="1653726145226" duration="39823000" />
+      <workItem from="1653807022917" duration="16261000" />
+      <workItem from="1653836889304" duration="2752000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

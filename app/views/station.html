@@ -1,0 +1,52 @@
+#{extends 'main.html' /}
+#{set title:'Station' /}
+
+#{menu id:"dashboard"/}
+
+<section class="ui segment">
+    <h2 class="ui header">
+        ${station.name}
+    </h2>
+    <div class="ui inverted segment">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/semantic.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/semantic.min.js"></script>
+      <div class="ui grid">
+          <div class="five column row">
+            <div class="grid column">
+              <i class=" big red map marker icon"></i>
+              <h3>${station.name}</h3>
+              <p>Lat:  ${station.lat}</p>
+              <p>Lng:  ${station.lng}</p>
+            </div>
+            <div class="column">
+              <i class="big blue cloud sun rain icon"></i>
+              <i class="${station.icon}"></i>
+              <h3>Weather</h3>
+              <p>${station.weather}</p>
+            </div>
+             <div class="column">
+             <i class="big green right aligned temperature low icon"></i>
+             <h3>Temperature</h3>
+             <p>${latestReading?.temperature} C</p>
+             <p>${station.fahrenheit} F</p>
+        </div>
+        <div class="column">
+            <i class="big wind icon"></i>
+            <h3>Wind</h3>
+            <p>${station.beaufort} bft</p>
+            <p>${station.direction}</p>
+            <p>Feels like</p>
+            <p>${station.windChill.round(1)}</p>
+        </div>
+        <div class="column">
+            <i class="big purple sun outline icon"></i>
+            <h3>Pressure</h3>
+            <p>${latestReading?.pressure} hpa</p>
+        </div>
+          </div>
+      </div>
+    </div>
+    #{listreadings station:station /}
+    #{addreading station:station /}
+</section>
